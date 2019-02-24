@@ -12,7 +12,7 @@ public class CatchUnknownExceptionAspect {
 	
 	private final Logger log = Logger.getLogger(CatchUnknownExceptionAspect.class);
 	
-	@Pointcut("execution(* com.fr.adaming.restController.*.*(..))")
+	@Pointcut("execution(* com.fr.adaming.controller.UserRestController.readAll(..))")
 	public void pc1() {};
 	
 	@Before("pc1()")
