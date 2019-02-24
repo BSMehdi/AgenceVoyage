@@ -63,6 +63,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+   	    <start-class>com.fr.adaming.AgenceVoyageApplication</start-class>
 	</properties>
 
 	<dependencies>
